@@ -1,11 +1,10 @@
 # DSA-Related-Fundamentals
 
 # 1) Array:
-   
-   -> int[] b = Arrays.copyOf(arr, n);
-   -> int[] c = Arrays.copyOfRange(arr, 2, 5);
-   -> Arrays.toString(arr);
-   -> Arrays.equals(arr1, arr2);
+    -> int[] b = Arrays.copyOf(arr, n);
+    -> int[] c = Arrays.copyOfRange(arr, 2, 5);
+    -> Arrays.toString(arr);
+    -> Arrays.equals(arr1, arr2);
 
 # 2) ArrayList:
      -> list.add(value); list.add(index, value);
@@ -20,7 +19,7 @@
      -> Collections.sort(list);
      -> list.toArray();
 
-   -> Arrays.asList(arr);
-   -> list.toArray(new Integer[0]);
+    -> Arrays.asList(arr);
+    -> list.toArray(new Integer[0]);
 
 
