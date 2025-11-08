@@ -22,4 +22,43 @@
     -> Arrays.asList(arr);
     -> list.toArray(new Integer[0]);
 
+# 3) String
+    -> s.length()
+    -> s.charAt(i)
+    -> s.charAt(i) - 'A';char → int index (A-Z)
+    -> s.charAt(i) - '0';digit char → int
+    -> s.substring(l, r)  // r is EXCLUSIVE
+    -> s.indexOf("ab")  s.indexOf('a')
+    -> s.contains("abc")
+    -> s.startsWith("abc")  s.endsWith("xyz")
 
+# 4) StringBuilder
+    -> StringBuilder sb = new StringBuilder();
+    -> sb.append('a');
+    -> sb.toString();
+    -> sb.insert(index, 'x');
+    -> sb.deleteCharAt(i);
+    -> sb.delete(startIndex, endIndex);  // endIndex is exclusive
+    -> sb.replace(start, end, "new");
+    -> sb.reverse(); 
+    -> sb.charAt(i)
+    -> sb.setCharAt(i, 'x');
+
+    -> char[] arr = s.toCharArray();
+    -> String str = new String(arr);
+    -> String.valueOf(x)
+    -> Integer.parseInt(s)
+    -> s.equals("abc")
+    -> s.equalsIgnoreCase("abc")
+    -> s.compareTo("xyz") // lexicographical
+    -> s.replace('a', 'b')
+    -> s.replace("abc", "x")
+    -> s.trim()
+    -> s.toUpperCase()
+    -> s.toLowerCase()
+    -> s.split(" ") ,s.split(",")
+    -> String.join(",", list)
+    -> Character.isDigit(ch)
+    -> Character.isLetter(ch)
+    -> Character.toLowerCase(ch)
+    -> Character.toUpperCase(ch)
